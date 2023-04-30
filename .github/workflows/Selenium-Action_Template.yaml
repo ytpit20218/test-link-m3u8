@@ -24,6 +24,6 @@ jobs:
       - name: Running the Python script
         run: python Selenium-Template.py
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r requests
       - name: Run script
         run: python 90phut.py
