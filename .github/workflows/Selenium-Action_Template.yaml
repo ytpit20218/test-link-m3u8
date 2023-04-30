@@ -21,8 +21,9 @@ jobs:
         run: pip install chromedriver-autoinstaller selenium pyvirtualdisplay
       - name: Install xvfb
         run: sudo apt-get install xvfb
-
       - name: Running the Python script
         run: python Selenium-Template.py
+      - name: Install dependencies
+        run: pip install -r requirements.txt
       - name: Run script
         run: python 90phut.py
